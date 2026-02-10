@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/fregan-serif');
+
+body{
+    font-family: "Poppins", sans-serif;
+    ;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Fregan Serif', sans-serif;
+}
+
+h1{
+    font-size: 60px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+a{
+
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+
+
+footer p{
+    
+        font-size: 12px;
+        text-align: center;
+    }
+
+    a{
+        color: #C27A5B;
+    }
+
+    .hero {
+        color: #ffff;
+        text-align: center;
+        background-color: #C27A5B;
+    }
+    .btn{
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 25px;
+        border-radius: 8px;
+        border: 1px solid;
+        
+    
+    }
+     .btn-primary{
+        background-color: #C27A5B;
+        color: #ffff;
+    }
+    .btn-primary:hover {
+        background-color: #c78061;
+        color: #ffff;
+        
+    }
+   .btn-secondary{
+    color: #C27A5B;
+    background-color: #ece8e7;
+   }
+   .btn-secondary:hover{
+    color: #C27A5B;
+    background-color: #f1e2dd;
+   }
+    .profile{
+        color: blanchedalmond;
+        
+        
+    }
+    .navlink:link, .navlink:visited{
+        color: #C27A5B;
+    }
+    .navlink:hover{
+        color: #552a15;
+        text-decoration: underline;
+    }
+    
