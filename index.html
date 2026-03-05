@@ -10,110 +10,305 @@
 </head>
 
 <body>
-    <header>
-        <nav>
+    <header class="header">
+        <nav class="container navbar">
             <h3><a href="/">Obinna</a></h3>
 
 
-            <ul>
-                <li><a class="navlink" href="/">Home</a></li>
-                <li><a class="navlink" href="#contact">Contact</a></li>
-                <li><a class="navlink" href="#portfolio">Portfolio</a></li>
-                <li><a class="navlink href="#gallery">Gallery</a></li>
-                <li><a class="navlink" href="#about">About</a></li>
-            </ul>
+            <div class="header-links">
+
+                <a class="navlink" href="/">Home</a>
+                <a class="navlink" href="#contact">Contact</a>
+                <a class="navlink" href="#portfolio">Portfolio</a>
+                <a class="navlink" href="#gallery">Gallery</a>
+                <a class="navlink" href="#about">About</a>
+            </div>
         </nav>
     </header>
 
     <main>
-        <!-- Hero Section -->
-        <section>
-            <div class="hero">
-                <div>
-                    <h1 id="about">Hi, I am <span class="profile">Obinna Ohanaka</span></h1>
-                    <h2>Frontend Developer</h2>
-                    <p>
-                        Welcome to my website! I am a passionate Frontend Developer.
-                    </p>
+        <!-- <-- Hero Section -->
+        <section class="hero-wrapper">
+            <div class="hero container">
+
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1 id="about">Hi, I am <span class="profile">Obinna Ohanaka</span></h1>
+                        <h2>Frontend Developer</h2>
+                        <p>
+                            Welcome to my website! I am a passionate Frontend Developer with the knack for creating,
+                            engaging and user-friendly web applications. With a strong foundation in HTML, CSS, and
+                            Javascript, I strive to build seamless digital experiences that captivate users and drive
+                            results.
+                        </p>
+
+                        <div class="hero-links">
+                            <ul class="hero-btn">
+                                <li><a href="#" class="btn btn-primary">Hire Me</a></li>
+                                <li><a href="contact.html" class="btn btn-secondary">Let's Talk</a></li>
+
+                            </ul>
+
+                            <ul class="hero-btn">
+                                <li><a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                                <li><a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                                <!-- <li><a href="/assets/images/square-linkedin-brands-solid-full.svg" target="_blank"></a></li> -->
+
+
+                            </ul>
+                        </div>
+
+                    </div>
+
                 </div>
-                <img src="https://images.unsplash.com/photo-1522529599102-193c0d76b5b6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmxhY2slMjBtYW58ZW58MHx8MHx8fDA%3D"
-                    alt="" w="400">
+
+            </div>
+            <img class="hero-image"
+                src="https://images.unsplash.com/photo-1522529599102-193c0d76b5b6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmxhY2slMjBtYW58ZW58MHx8MHx8fDA%3D"
+                alt="" w="400">
+            </div>
+        </section>
+
+        <!-- Project Section -->
+        <section class="container">
+            <h3 id="project">Projects</h3>
+            <div class="project-category">
+                <span>All</span>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Javascript</span>
+            </div>
+
+            <div class="project-card-wrapper">
+
+
+                <div class="project-card">
+
+                    <img src="https://plus.unsplash.com/premium_photo-1772065873960-ed81d487148b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cG9ydGZvbGlvJTIwbGFuZGluZyUyMHBhZ2V8ZW58MHx8MHx8fDA%3D"
+                        width="400" alt="">
+                    <div class="project-text">
+                        <h4 class="project-title">Portfolio Landing Page</h4>
+                        <p class="prject-description">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi hic consectetur quaerat
+                            libero soluta consequatur repellendus illum, fugit maiores. Nihil neque non accusamus sunt
+                            dolor quas commodi, hic impedit dicta nesciunt nobis ab dolorem corrupti id maiores nisi eum
+                            fuga.
+                        </p>
+                    </div>
+
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Javascript</span>
+                        <span>Git and Github</span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="project-card">
+
+                    <img src="https://images.unsplash.com/photo-1657812159103-1b2a52a7f5e8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZS1jb21tZXJjZXxlbnwwfHwwfHx8MA%3D%3D"
+                        width="400" alt="">
+                    <div class="project-text">
+                        <h4 class="project-title">E-commerce Website</h4>
+                        <p class="prject-description">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi hic consectetur quaerat
+                            libero soluta consequatur repellendus illum, fugit maiores. Nihil neque non accusamus sunt
+                            dolor quas commodi, hic impedit dicta nesciunt nobis ab dolorem corrupti id maiores nisi eum
+                            fuga.
+                        </p>
+                    </div>
+
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Javascript</span>
+                        <span>Git and Github</span>
+
+                    </div>
+
+                </div>
+
+                <div class="project-card">
+
+                    <img src="https://images.unsplash.com/photo-1657812159103-1b2a52a7f5e8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZS1jb21tZXJjZXxlbnwwfHwwfHx8MA%3D%3D"
+                        width="400" alt="">
+                    <div class="project-text">
+                        <h4 class="project-title">Local Food Restaurant</h4>
+                        <p class="prject-description">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi hic consectetur quaerat
+                            libero soluta consequatur repellendus illum, fugit maiores. Nihil neque non accusamus sunt
+                            dolor quas commodi, hic impedit dicta nesciunt nobis ab dolorem corrupti id maiores nisi eum
+                            fuga.
+                        </p>
+                    </div>
+
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Javascript</span>
+                        <span>Git and Github</span>
+
+                    </div>
+
+                </div>
+
+                <div class="project-card">
+
+                    <img src="https://images.unsplash.com/photo-1657812159103-1b2a52a7f5e8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZS1jb21tZXJjZXxlbnwwfHwwfHx8MA%3D%3D"
+                        width="400" alt="">
+                    <div class="project-text">
+                        <h4 class="project-title">E-commerce Website</h4>
+                        <p class="prject-description">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi hic consectetur quaerat
+                            libero soluta consequatur repellendus illum, fugit maiores. Nihil neque non accusamus sunt
+                            dolor quas commodi, hic impedit dicta nesciunt nobis ab dolorem corrupti id maiores nisi eum
+                            fuga.
+                        </p>
+                    </div>
+
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Javascript</span>
+                        <span>Git and Github</span>
+
+                    </div>
+
+                </div>
+
+                <div class="project-card">
+
+                    <img src="https://images.unsplash.com/photo-1657812159103-1b2a52a7f5e8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZS1jb21tZXJjZXxlbnwwfHwwfHx8MA%3D%3D"
+                        width="400" alt="">
+                    <div class="project-text">
+                        <h4 class="project-title">Cafria Academy</h4>
+                        <p class="prject-description">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi hic consectetur quaerat
+                            libero soluta consequatur repellendus illum, fugit maiores. Nihil neque non accusamus sunt
+                            dolor quas commodi, hic impedit dicta nesciunt nobis ab dolorem corrupti id maiores nisi eum
+                            fuga.
+                        </p>
+                    </div>
+
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Javascript</span>
+                        <span>Git and Github</span>
+
+                    </div>
+
+                </div>
+
+                <div class="project-card">
+
+                    <img src="https://images.unsplash.com/photo-1657812159103-1b2a52a7f5e8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZS1jb21tZXJjZXxlbnwwfHwwfHx8MA%3D%3D"
+                        width="400" alt="">
+                    <div class="project-text">
+                        <h4 class="project-title">Cafria Academy</h4>
+                        <p class="prject-description">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi hic consectetur quaerat
+                            libero soluta consequatur repellendus illum, fugit maiores. Nihil neque non accusamus sunt
+                            dolor quas commodi, hic impedit dicta nesciunt nobis ab dolorem corrupti id maiores nisi eum
+                            fuga.
+                        </p>
+                    </div>
+
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Javascript</span>
+                        <span>Git and Github</span>
+
+                    </div>
+
+                </div>
+
+
             </div>
 
 
 
-            <div>
-                <div>
-                    <ul>
-                        <li><a href="#" class="btn btn-primary">Hire me</a></li>
-                        <li><a href="contact.html" class="btn btn-secondary">Let's Talk</a></li>
-                    </ul>
-                </div>
 
-                <div>
-                    <ul>
-                        <li><a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
-                        <li><a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/obinna-ohanaka-90440725b/" target="_blank"><i
-                                    class="fa-brands fa-linkedin"></i></a></li>
-                        <li><a href="#" target="_blank"><i class="fa-brands fa-tiktok"></i></i></a></li>
-                    </ul>
-                </div>
+
+        </section>
+
+        <section id="testimonials">
+            <h2>What People Say About Me</h2>
+
+
+            <div class="testimonial-grid">
+                
+                <article class="testimonial-card">
+                    <img src="https://images.unsplash.com/photo-1615109398623-88346a601842?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWFufGVufDB8fDB8fHww"
+                        width="400" alt="">
+                    <blockquote>
+                        "Obinna built our website beautifully and delivered everything on time"
+                    </blockquote>
+                    <h3>Double D</h3>
+                    <p>tech. pro</p>
+                </article>
             </div>
+
+
+            <div class="testimonial-card">
+                 <img src="https://images.unsplash.com/photo-1615109398623-88346a601842?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWFufGVufDB8fDB8fHww"
+                        width="400" alt="">
+                <article class="testimonial-card">
+                    <blockquote>
+                        "Very professional and great attention to detail."
+                    </blockquote>
+                    <h3>Temidayo</h3>
+                    <p>business owner</p>
+                </article>
+            </div>
+
+        
+               
+
         </section>
 
-        <!-- Gallery Section -->
-        <section>
-            <h3 id="gallery"></h3>
-            <a href="/">Top</a>
-            <br>
-            <h3>Gallery Section</h3>
-            <img src="https://plus.unsplash.com/premium_photo-1668114375111-e90b5e975df6?w=300&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZG9nc3xlbnwwfHwwfHx8MA%3D%3D"
-                alt="Cute Dogs">
-            <img src="" alt="">
-            <img src="https://plus.unsplash.com/premium_photo-1672239496290-5061cfee7ebb?q=80&w=300&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="Beyza Kaplan">
-            <img src="https://plus.unsplash.com/premium_photo-1664015982598-283bcdc9cae8?q=65&w=300&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="">
-        </section>
+
 
         <!-- Contact Section -->
-        <section>
+        <section class="contac-section container">
             <h3 id="contact">Contact Section</h3>
             <form action="">
+
                 <label for="username">Username</label>
                 <br>
                 <input type="text" id="username" placeholder="Enter your username" required>
 
-
-
                 <br><br>
 
                 <label for="email">Email</label><br>
-                <input type="email" name="email" id="email" placeholder="" required>
+                <input type="email" name="email" id="email">
 
                 <br><br>
 
                 <label for="phone">Phone</label><br>
-                <input type="number" name="tel" id="phone" placeholder="" required>
+                <input type="tel" name="tel" id="phone">
 
                 <br><br>
 
                 <label for="message">Message</label><br>
-                <textarea id="message" name="message" placeholder="Type your message" required></textarea>
-
-
+                <textarea name="message" id="message" placeholder="Enter your message"></textarea>
 
                 <br><br>
 
                 <!-- Button -->
-                <button type="submit" class="sb">Submit</button>
+                <button type="submit" class="btn btn-primary">Submit</button>
 
             </form>
         </section>
 
     </main>
-    <footer>
+
+
+    <footer class="footer-section">
         <p>&copy; 2026 Obinna Ohanaka. All rights reserved.</p>
     </footer>
 
