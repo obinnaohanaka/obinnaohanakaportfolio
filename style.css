@@ -82,6 +82,16 @@ footer p {
     justify-content: center;
     align-items: center;
 }
+.hero-image {
+     width: 400px;
+    height: 400px;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    
+
+}
 
 .hero-wrapper {
     background-color: #e7deda;
@@ -127,7 +137,7 @@ footer p {
 
 .profile {
     columns: var(--primary-color);
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 .navlink:link,
@@ -210,44 +220,75 @@ textarea {
 .footer-section {
     border-top: 1px solid #f1e2db;
     padding: 18px;
-    background-color: #f1e2dd;
+    background-color: whitesmoke;
     margin-top: 60px;
 }
+
+
 #testimonials {
     padding: 60px 20px;
-    background: #d1a490;
+    /* background: #f5ede9; */
     text-align: center;
 }
 
-#testimonials h2{
-    font-size: 32px;
-    margin-bottom: 40px;
+.testimonials h2{
+    /* font-size: 32px; */
+    margin-bottom: 10px;
 }
 
-/* GRID CONTAINER */
-.testimonial grid{
-    display: grid;
-    grid-template-columns: 3 2fr;
-    gap: 30px;
-    max-width: 900px;
-    margin: auto;
+
+
+
+.testimonial-card>blockquote{
+    font-style: italic;
+    color: black;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
-/* .TESTIMONIAL CARD */
-.testimonial-card{
-    background: #ffff;
-    padding: 25px;
-    border-radius: 10px;
-    box-shadow: 0 6px 15px rgba(0, 0green, 0blue, 0alpha 1);
+.testimonial-card>h3 {
+    margin: 10px;
+    color: black;
+}
+
+.testimonial-card>p {
+    color: brown;
+    font-size: 16px;
+}
+
+
+
+.testimonial-card> img{
+    width: 200px;
+    height: 200px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    
     
 
-
- 
 }
-.testimonial-card> img{
-    width: 10%;
-    height: 300px;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
 
+.testimonial-card-wrapper{
+    margin-top: 10px;
+    /* display: flex; */
+    gap: 10px;
+    justify-content: center;
+     /* margin-top: 60px; */
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    
+    
 }
+
+.testimonial-card {
+    border-radius: 50px;
+    background-color: whitesmoke;
+    padding: 10px;
+    /* text-align: center; */
+    margin: 15px;
+}
+
+
+
