@@ -59,11 +59,11 @@ footer p {
 
 .container {
     max-width: 1080px;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .navbar {
-    display:flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
@@ -226,13 +226,15 @@ textarea {
 
 
 #testimonials {
-    padding: 60px 20px;
+    /* padding: 60px 20px; */
     /* background: #f5ede9; */
     text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
 }
 
 .testimonials h2{
-    /* font-size: 32px; */
+
     margin-bottom: 10px;
 }
 
@@ -267,15 +269,16 @@ textarea {
     border-bottom-right-radius: 100px;
     
     
+    
 
 }
 
 .testimonial-card-wrapper{
     margin-top: 10px;
+    margin-left: 450px;
+    margin-right: px;
     /* display: flex; */
     gap: 10px;
-    justify-content: center;
-     /* margin-top: 60px; */
     display: grid;
     grid-template-columns: repeat(3, 2fr);
     
@@ -284,10 +287,11 @@ textarea {
 
 .testimonial-card {
     border-radius: 50px;
-    background-color: whitesmoke;
+    background-color: rgb(231, 231, 231);
     padding: 10px;
-    /* text-align: center; */
     margin: 15px;
+    width: 300px;
+    
 }
 
 
