@@ -76,7 +76,7 @@ footer p {
 .hero {
     color: #000;
     /* text-align: center; */
-    padding: 40px;
+    padding: 16px 0;
     min-height: 80vh;
     display: flex;
     justify-content: center;
@@ -217,6 +217,10 @@ input,textarea {
 textarea {
     height: 400px;
 }
+
+.footer {
+    text-decoration: underline;
+}
 .footer-section {
     border-top: 1px solid #f1e2db;
     padding: 18px;
@@ -261,12 +265,12 @@ textarea {
 
 
 .testimonial-card> img{
-    width: 200px;
-    height: 200px;
-    border-top-left-radius: 100px;
-    border-top-right-radius: 100px;
-    border-bottom-left-radius: 100px;
-    border-bottom-right-radius: 100px;
+    width: 150px;
+    height: 150px;
+    border-top-left-radius: 75px;
+    border-top-right-radius: 75px;
+    border-bottom-left-radius: 75px;
+    border-bottom-right-radius: 75px;
     
     
     
@@ -275,12 +279,13 @@ textarea {
 
 .testimonial-card-wrapper{
     margin-top: 10px;
-    margin-left: 450px;
-    margin-right: px;
+    margin-left: 400px;
+    margin-right: 290px;
     /* display: flex; */
     gap: 10px;
     display: grid;
     grid-template-columns: repeat(3, 2fr);
+    
     
     
 }
@@ -290,7 +295,8 @@ textarea {
     background-color: rgb(231, 231, 231);
     padding: 10px;
     margin: 15px;
-    width: 300px;
+    width: 250px;
+    /* gap: 50px; */
     
 }
 
