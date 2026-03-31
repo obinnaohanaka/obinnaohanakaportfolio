@@ -27,7 +27,7 @@ h6 {
     font-family: 'Fregan Serif', sans-serif;
 }
 
-h1 { 
+h1 {
     font-size: 60px;
 }
 
@@ -82,14 +82,16 @@ footer p {
     justify-content: center;
     align-items: center;
 }
+
 .hero-image {
-     width: 400px;
+    width: 400px;
     height: 400px;
     border-top-left-radius: 200px;
     border-top-right-radius: 200px;
     border-bottom-left-radius: 200px;
     border-bottom-right-radius: 200px;
-    
+
+
 
 }
 
@@ -102,10 +104,12 @@ footer p {
     justify-content: center;
     align-items: center;
 }
+
 .hero-btn {
     display: flex;
 }
-.btn  {
+
+.btn {
     display: inline-block;
     padding: 10px 20px;
     font-size: 16px;
@@ -162,6 +166,7 @@ footer p {
     text-align: center;
     font-size: 32px;
 }
+
 .project-card-wrapper {
     margin-top: 60px;
     display: grid;
@@ -189,6 +194,7 @@ footer p {
     font-size: 24px;
     margin-bottom: 8px;
 }
+
 .project-description {
     color: #535353;
     line-clamp: 2;
@@ -205,7 +211,8 @@ footer p {
     color: var(--primary-color);
 }
 
-input,textarea {
+input,
+textarea {
     padding: 16px;
     font-size: 16px;
     border-radius: 8px;
@@ -221,6 +228,7 @@ textarea {
 .footer {
     text-decoration: underline;
 }
+
 .footer-section {
     border-top: 1px solid #f1e2db;
     padding: 18px;
@@ -232,12 +240,12 @@ textarea {
 #testimonials {
     /* padding: 60px 20px; */
     /* background: #f5ede9; */
-    text-align: center;
+    /* text-align: center; */
     margin-top: 60px;
     margin-bottom: 20px;
 }
 
-.testimonials h2{
+.testimonials h2 {
 
     margin-bottom: 10px;
 }
@@ -245,11 +253,15 @@ textarea {
 
 
 
-.testimonial-card>blockquote{
+.testimonial-card>blockquote {
     font-style: italic;
     color: black;
     margin-bottom: 10px;
     margin-top: 10px;
+}
+
+.testimonial-card>div {
+    padding: 20px;
 }
 
 .testimonial-card>h3 {
@@ -264,31 +276,23 @@ textarea {
 
 
 
-.testimonial-card> img{
+.testimonial-card>img {
     width: 150px;
     height: 150px;
-    border-top-left-radius: 75px;
-    border-top-right-radius: 75px;
-    border-bottom-left-radius: 75px;
-    border-bottom-right-radius: 75px;
-    padding: 20px;
-    
-    
-    
+    /* border-radius: 9999999px */
+    /* padding: 20px; */
+
 
 }
 
-.testimonial-card-wrapper{
+.testimonial-card-wrapper {
     margin-top: 10px;
-    margin-left: 400px;
-    margin-right: 290px;
-    /* display: flex; */
-    gap: 10px;
+    /* gap: 10px; */
     display: grid;
-    grid-template-columns: repeat(3, 2fr);
-    
-    
-    
+    grid-template-columns: repeat(2, 2fr);
+
+
+
 }
 
 .testimonial-card {
@@ -296,10 +300,6 @@ textarea {
     background-color: rgb(231, 231, 231);
     padding: 10px;
     margin: 15px;
-    width: 250px;
-    /* gap: 50px; */
-    
+    display: flex;
+
 }
-
-
-
